@@ -1,5 +1,7 @@
 # AGNU Wiki
 
+Hosted site: https://alpha-gamma-nu-projects.github.io/wiki/
+
 This is a simple static blogging website for AGNU.
 
 Built with [Hugo](https://gohugo.io/) and the [Hello Friend NG](https://themes.gohugo.io/hugo-theme-hello-friend-ng/) theme.
