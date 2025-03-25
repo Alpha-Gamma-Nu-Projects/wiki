@@ -1,0 +1,57 @@
+baseurl      = "localhost"
+title        = "AGNU Wiki"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "One stop shop for all things AGNU"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "AGNU wiki"
+  keywords = "wiki, AGNU, Alpha Gamma Nu, AGNU Wiki, Alpha Gamma Nu IIT Madras, AGNU IIT Madras, Alpha Gamma Nu IIT Madras Wiki, AGNU IIT Madras Wiki"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "AGNU Wiki"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "One stop shop for all things AGNU"
+
+    [languages.en.params.logo]
+      logoText = "hello friend ng"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
